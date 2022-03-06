@@ -15,7 +15,7 @@ body {
 main {
   width: 350px;
   background: #F0F8FF;
-  margin: 10% auto 0;
+  margin: 10% auto 20px;
   padding: 30px 20px 20px;
 }
 .title-icon {

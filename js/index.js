@@ -269,11 +269,13 @@ $(function() {
   $againBtn.on('click', function (event) {
     window.location.reload()
   })
-  
+
   //// GET DATA--
   axios.get(dataURL)
     .then(response => {
       data = response.data.results
     })
     .catch(error => console.log(error))
+
+    
 })

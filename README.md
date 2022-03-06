@@ -2,7 +2,7 @@
 
 你的知識有多廣闊呢 ? 測測來自世界與生活的各種知識吧 :sunglasses:
 
-- - - - 題目不定時會增加，敬請期待 :smiley:
+-- 題目不定時會增加，敬請期待 :smiley:
 
 ![Test](https://pinjin1201.github.io/life_test/image/readme01.jpg)
 

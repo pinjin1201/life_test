@@ -39,6 +39,48 @@ $(function() {
     six: '今天是不是得到了許多知識，意想不到吧!'
   }
 
+  //// SCORE--
+  // quiz end, show score
+  function showScore() {
+
+    let word = ''
+    let content = ''
+
+    // show again button and copyright
+    function showAgainBtn() {
+      $againBtn.show()
+      $copyright.show()
+    }
+    // get score word
+    function getScoreWord() {
+      if (score === 100) {
+        word = scoreWord.one
+      } else if (score >= 90 && score <= 99) {
+        word = scoreWord.two
+      } else if (score >= 80 && score <= 89) {
+        word = scoreWord.three
+      } else if (score >= 70 && score <= 79) {
+        word = scoreWord.four
+      } else if (score >= 60 && score <= 69) {
+        word = scoreWord.five
+      } else if (score <= 59) {
+        word = scoreWord.six
+      }
+    }
+    // get score word
+    getScoreWord()
+    // show score text
+    content = `
+      <div class="title-icon">♞</div>
+      <div class="score-name">${name}</div>
+      <div class="score">${score} 分</div>
+      <div class="score-word">${word}</div>
+    `
+    $start.html(content)
+    // show again button and copyright
+    showAgainBtn()
+  }
+  
   //// MAKE QUIZ--
   // add items letter title
   function addItemTitleLetter(num, title) {
@@ -222,7 +264,7 @@ $(function() {
     $nextBtn.hide()
     $detailFrom.hide()
   })
-  
+
   //// GET DATA--
   axios.get(dataURL)
     .then(response => {

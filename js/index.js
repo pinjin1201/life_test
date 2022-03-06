@@ -214,6 +214,15 @@ $(function() {
     }
   })
 
+  //// NEXT QUIZ--
+  // run next quiz
+  $nextBtn.on('click', function (event) {
+    enterTestPage()
+    $detail.hide()
+    $nextBtn.hide()
+    $detailFrom.hide()
+  })
+  
   //// GET DATA--
   axios.get(dataURL)
     .then(response => {

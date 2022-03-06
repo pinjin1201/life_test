@@ -1,0 +1,167 @@
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  font-family:Arial, Helvetica, sans-serif;
+  background: #5F9EA0;
+  text-align: center;
+  color:#2F4F4F;
+  font-weight: bold;
+  max-width: 800px;
+}
+
+main {
+  width: 350px;
+  background: #F0F8FF;
+  margin: 10% auto 0;
+  padding: 30px 20px 20px;
+}
+.title-icon {
+  font-size: 2.8em;
+  margin-bottom: 15px;
+  font-weight: normal;
+}
+.title-text {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+}
+.input-text {
+  margin-bottom: 10px;
+} 
+input {
+  border: 2px solid #000;
+  height: 30px;
+  margin-bottom: 40px;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -o-bordr-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+  background-color: #fff;
+  outline: none;
+  font-size: initial;
+}
+.form .enter-btn {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  padding-top: 17px;
+  color: #DCDCDC;
+  background: #2F4F4F;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-bordr-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+.form .enter-btn:hover {
+  opacity: 0.7;
+  cursor: pointer;
+  color: #000;
+}
+.footer-text {
+  font-size: 0.9em;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+.footer-copyright {
+  font-size: 0.7em;
+}
+
+/* test page */
+.topic {
+  width: 300px;
+  margin: 0 auto;
+}
+.question {
+  text-align: left;
+  margin: 0 auto 20px;
+  padding: 10px;
+  background: #8FBC8F;
+  line-height: 1.4em;
+}
+.options {
+  background: #BDB76B;
+  padding: 10px 10px 20px;
+}
+.options .item {
+  text-align: left;
+  width: 95%;
+  margin: 10px auto 0;
+  padding: 10px;
+  background: #fff;
+  line-height: 1.4em;
+  cursor: pointer;
+}
+.options .item:hover {
+  background: #dcdcdc;
+}
+
+/* detail */
+.detail-image {
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.detail-image img {
+  width: 100%;
+}
+.detail-text {
+  text-align: left;
+  line-height: 1.4em;
+  margin-bottom: 40px;
+}
+/* next button */
+div.next-btn {
+  width: 100px;
+  letter-spacing: 3px;
+  color: #F0F8FF;
+  margin: 0 auto 25px;
+  padding: 10px 0;
+  background: #2F4F4F;
+  cursor: pointer;
+}
+.from {
+  text-align: left;
+  font-size: 0.8em;
+  line-height: 1.2em;
+}
+
+/* score */
+.score-name {
+  width: 300px;
+  margin: 0 auto 15px;
+  font-size: 1.5em;
+  line-height: 1.4em;
+  letter-spacing: 3px;
+}
+.score {
+  width: 200px;
+  margin: 0 auto 50px;
+  font-size: 3em;
+  color: #B8860B;
+  letter-spacing: 5px;
+}
+.score-word {
+  width: 250px;
+  margin: 0 auto 45px;
+  font-size: 0.85em;
+  line-height: 1.4em;
+}
+.again-btn {
+  width: 100px;
+  color: #F0F8FF;
+  margin: 0 auto 30px;
+  padding: 10px;
+  background: #2F4F4F;
+}
+.again-btn:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+.score-copyright {
+  width: 150px;
+  margin: 0 auto;
+  font-size: 0.7em;
+}

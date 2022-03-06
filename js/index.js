@@ -80,7 +80,7 @@ $(function() {
     // show again button and copyright
     showAgainBtn()
   }
-  
+
   //// MAKE QUIZ--
   // add items letter title
   function addItemTitleLetter(num, title) {
@@ -265,6 +265,11 @@ $(function() {
     $detailFrom.hide()
   })
 
+  //// AGAIN THE QUIZ--
+  $againBtn.on('click', function (event) {
+    window.location.reload()
+  })
+  
   //// GET DATA--
   axios.get(dataURL)
     .then(response => {
